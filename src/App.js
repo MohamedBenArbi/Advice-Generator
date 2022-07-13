@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import Component1 from './Component1';
 
 var dat;
 
@@ -34,6 +35,7 @@ function App() {
   return (
     <>
       <div className='flex items-center justify-center w-screen h-screen bg-Bl-100'>
+        <Component1 advice={state} grab={grab} id={id} />
       </div>
     </>
   );
